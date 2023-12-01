@@ -43,12 +43,11 @@ body {
 
 }
 
-@import url(./reset.scss);
-@import url(./menu.scss);
-@import url(./chat.scss);
-@import url(./imageSlider.scss);
-@import url(./settings.scss);
-@import url(./backgroundStyler.scss);
+@import url(./UI/menu.scss);
+@import url(./UI/chat.scss);
+@import url(./UI/imageSlider.scss);
+@import url(./UI/settings.scss);
+@import url(./UI/backgroundStyler.scss);
 
 @import url(./templates/card.scss);
 @import url(./templates/rangeSlider.scss);
@@ -63,6 +62,7 @@ body {
 @import url(./pages/skillPage.scss);
 @import url(./pages/worksPage.scss);
 
+@import url(./reset.scss);
 @import url(./darkTheme.scss);
 @import url(./lightTheme.scss);
 @import url(./adaptation/adaptation.scss);
