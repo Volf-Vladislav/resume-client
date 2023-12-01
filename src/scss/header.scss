@@ -1,0 +1,31 @@
+header {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+
+    height: 130px;
+
+    .linkElement {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+
+        &:focus, &:hover {
+            svg, path {
+                fill: var(--activeColor)
+            }
+        }
+    }
+
+    #settingsButton {
+        border-radius: 50%;
+    }
+}

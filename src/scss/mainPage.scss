@@ -1,0 +1,162 @@
+.mainPage {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    grid-template-rows: repeat(auto-fill, 240px);
+    gap: 10px;
+    margin-left: 10px;
+
+    .selfInfo {
+        display: flex;
+        flex-wrap: wrap;
+
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        width: 740px;
+
+
+        .avatar {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            margin-bottom: 20px;
+            margin-right: 40px;
+            padding: 20px;
+            border: 1px solid var(--borderSettings);
+
+            .image {
+                width: 200px;
+                height: 200px;
+                background: rgba(0, 0, 0, 0.13);
+                border-radius: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            .contacts {
+                display: flex;
+                flex-direction: column;
+
+                .element {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    margin-top: 10px;
+
+                    a {
+                        color: var(--activeColor);
+                        margin-left: 6px;
+                        width: 131px;
+                    }
+                }
+            }
+        }
+
+        .info {
+           .name {
+                font-size: 18px;
+                margin-bottom: 5px;
+                color: var(--titleText);
+            }
+
+            .job {
+                font-size: 17px;
+                margin-bottom: 20px;
+                color: var(--titleText);
+            }
+
+            .expereance {
+                width: 260px;
+                font-size: 15px;
+                color: var(--defaultText);
+            }
+            
+            .city {
+                font-size: 14px;
+                margin-top: 10px;
+                color: var(--transperentText);
+            }
+        }
+
+        .description {
+            .title {
+                p {
+                    font-size: 17px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            p {
+                color: var(--defaultText);
+                line-height: 1.2;
+            }
+        }
+    }
+
+    .hrInfo {
+        width: 490px;
+        height: 490px;
+
+        grid-column-start: 4;
+        grid-column-end: 6;
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        color: white;
+
+        .title {
+            font-size: 18px;
+            color: var(--titleText);
+            margin-bottom: 20px;
+        }
+
+        .name {
+            font-size: 16px;
+            color: var(--defaultText);
+            margin-bottom: 5px;
+        }
+
+        .optional {
+            font-size: 15px;
+            color: var(--defaultText);
+            margin-bottom: 2px;
+        }
+
+        .date {
+            font-size: 14px;
+            color: var(--defaultText);
+            margin-bottom: 40px;
+        }
+    }
+
+    .skillInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        height: 240px;
+        width: 240px;
+
+        .title {
+            p {
+                text-align: center;
+                color: var(--defaultText);
+                margin-bottom: 10px;
+            }
+        }
+
+        .skillLogo {
+            margin-bottom: 20px;
+        }
+    }
+
+}

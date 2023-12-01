@@ -1,0 +1,216 @@
+@media (max-width: 800px) {
+    #tooltip1 {
+        right: 18px !important;
+        top: 60px !important;
+    }
+
+    #tooltip3 {
+        top: 0px !important;
+        left: 60px !important;
+    }
+
+    .settings {
+        top: 10px;
+        right: 65px;
+    }
+    header {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        top: 0px;
+        background: var(--background);
+        height: 60px;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    .pageWrapp {
+        margin: 60px 10px !important;
+    }
+
+    .aboutPage {
+        .techInfo {
+            width: 100% !important;
+            height: auto !important;
+        }
+    }
+
+    .worksPage {
+        display: flex;
+        flex-wrap: wrap;
+
+        .imageSlider {
+            .images img {
+                height: auto;
+                max-width: 80vw;
+            }
+
+            .leftButton,
+            .rightButton {
+                background: black;
+            }
+
+            .leftButton {
+                left: 10vw;
+            }
+
+            .rightButton {
+                right: 10vw;
+            }
+        }
+
+    }
+
+    .mainPage {
+        display: flex;
+        flex-wrap: wrap;
+
+        .selfInfo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px;
+
+            .info {
+                width: 48%;
+
+                .expereance {
+                    width: auto;
+                }
+            }
+
+            .avatar {
+                margin: 0px;
+                padding: 10px;
+                width: 44%;
+                margin-bottom: 40px;
+
+                .image {
+                    width: 31vw;
+                    height: 31vw;
+                }
+
+                .contacts a {
+                    font-size: 12px;
+                    margin-left: 2px;
+                }
+            }
+
+            .city {
+                margin-bottom: 40px;
+            }
+        }
+
+        .skillInfo {
+            width: 46vw;
+            height: auto;
+        }
+
+        .hrInfo {
+            width: 100% !important;
+            height: auto !important;
+        }
+    }
+
+    .skillPage {
+        .description {
+            width: 100%;
+        }
+
+        .element {
+            flex-wrap: wrap;
+        }
+    }
+
+    .contacts {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .wrapp {
+            margin-bottom: 10px;
+            margin-right: 0px;
+        }
+    }
+
+    #closedMenu {
+        background: none;
+
+        .navigation {
+            display: none;
+        }
+
+        .title {
+            border: none;
+            width: 40px;
+            height: 40px;
+            margin-top: 10px;
+        }
+    }
+
+    .bgStyler {
+        .stylerUI {
+            width: 100vw;
+            height: 100vw;
+        }
+
+        .dragAndDrop {
+            width: 90% !important;
+            height: 35vw !important;
+        }
+    }
+
+}
+
+@media (max-width: 380px) {
+    .mainPage {
+        .selfInfo {
+            .avatar {
+                padding: 5px;
+            }
+
+            .element {
+                svg {
+                    width: 18px;
+                    height: 18px;
+                }
+
+                a {
+                    font-size: 11px !important;
+                    margin: 4px !important;
+                }
+            }
+        }
+
+        .skillInfo {
+            padding: 10px;
+            width: 48%;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .mainPage {
+        .selfInfo {
+            .avatar {
+                padding: 5px;
+            }
+
+            .element {
+                svg {
+                    display: none;
+                }
+
+                a {
+                    width: auto !important;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .skillInfo {
+        width: 100% !important;
+    }
+
+}

@@ -1,0 +1,154 @@
+.bgStyler {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+
+    p {
+        color: var(--activeColor);
+    }
+
+    .stylerUI {
+        width: 40vw;
+        height: 32vw;
+        background: var(--background);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        border-radius: 12px;
+        border: 1px solid var(--borderDefault);
+        padding: 10px;
+
+        z-index: 2;
+
+        .defaultBg {
+            .title {
+                color: var(--buttonText);
+            }
+
+            .imagesContainer {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .defaultImage {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    width: 31%;
+                    min-height: 8vw;
+                    background: var(--ui);
+
+                    cursor: pointer;
+
+                    &:hover,
+                    &:focus {
+                        outline: 2px solid var(--activeColor);
+                    }
+
+                    img {
+                        width: 100%;
+                        min-height: 8vw;
+                    }
+                }
+            }
+        }
+
+        .customBg {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .dragAndDrop {
+                width: 65%;
+                height: 11vw;
+                border: 2px dashed var(--activeColor);
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .dndContent {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    height: 100px;
+
+                    .information {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        margin-top: 10px;
+
+                        .openImage {
+                            display: flex;
+                            align-items: center;
+                            z-index: 2;
+                            
+                            #imageExplorer {
+                                width: 110px;
+                                color: var(--transperentText);
+                                cursor: pointer;
+    
+                                &::file-selector-button {
+                                    color: var(--activeColor);
+                                    background: none;
+                                    border: none;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+
+                        p {
+                            color: var(--settingsText);
+                            font-size: 14px;
+                        }
+
+                        strong {
+                            color: var(--activeColor);
+                            font-size: 16px;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .supportTypes {
+                        p {
+                            color: var(--transperentText);
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .title {
+            margin-bottom: 15px;
+            text-align: center
+        }
+    }
+}
+
+
+.closeOverlay {
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: var(--overlay);
+}

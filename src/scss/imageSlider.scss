@@ -1,0 +1,100 @@
+.imageSlider {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+
+    .overlay {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+
+        width: 100vw;
+        height: 100vh;
+        z-index: -1;
+
+        background: #000000e1;
+        cursor: pointer;
+    }
+
+    .container {
+        .images {
+            img {
+                max-width: 60vw;
+                height: 60vh;
+            }
+        }
+    }
+
+    .dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .dot {
+            height: 12px;
+            width: 12px;
+            margin: 3px;
+
+            cursor: pointer;
+            border-radius: 50%;
+            background: rgb(211, 211, 211);
+        }
+
+        #current {
+            background: var(--activeColor);
+        }
+    }
+
+    .controls {
+        .leftButton {
+            left: 15vw;
+        }
+
+        .rightButton {
+            right: 15vw;
+        }
+
+        .rightButton,
+        .leftButton {
+            position: fixed;
+            top: calc(50% - 30px);
+            cursor: pointer;
+
+            p {
+                color: white;
+                padding: 10px;
+                font-size: 12px;
+
+                border: 1px solid white;
+
+                &:hover,
+                &:focus {
+                    --angle: 0deg;
+                    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+                    animation: 5s rotate linear infinite;
+                }
+            }
+        }
+    }
+
+}
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }

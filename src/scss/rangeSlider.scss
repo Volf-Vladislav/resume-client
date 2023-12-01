@@ -1,0 +1,38 @@
+.sliderUI {
+    display: flex;
+    align-items: center;
+
+    p {
+        padding: 5px;
+    }
+
+    input[type="range"] {
+        appearance: none;
+        margin: 0;
+        padding: 0;
+
+        width: 240px;
+        height: 35px;
+        border-radius: 10px;
+
+        border: 1px solid var(--borderSettings);
+        overflow: hidden;
+        cursor: grab;
+
+        &::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 0;
+            box-shadow: -20rem 0 0 20rem var(--sliderRande);
+        }
+
+        &::-moz-range-thumb {
+            border: none;
+            width: 0;
+            box-shadow: -20rem 0 0 20rem var(--sliderRande);
+        }
+
+        &[step] {
+            background-color: transparent;
+        }
+    }
+}

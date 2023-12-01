@@ -1,0 +1,66 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./roboto/Roboto.ttf);
+}
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background: var(--background);
+
+    .App {
+        font-family: 'Roboto';
+        border-top: 1px solid var(--activeColor);
+
+        min-height: 100vh;
+
+        .opacityOverlay {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+
+            width: 100vw;
+            height: 100vh;
+
+            background: black;
+            z-index: -1;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .pageWrapp {
+            margin: 30px 45px 20px 0px;
+            transition: 0.3s linear;
+        }
+    }
+
+}
+
+@import url(./reset.scss);
+@import url(./header.scss);
+@import url(./menu.scss);
+@import url(./chat.scss);
+@import url(./settings.scss);
+
+@import url(./card.scss);
+@import url(./backgroundStyler.scss);
+@import url(./rangeSlider.scss);
+@import url(./tooltip.scss);
+@import url(./imageSlider.scss);
+
+@import url(./worksPage.scss);
+@import url(./aboutPage.scss);
+@import url(./contacts.scss);
+@import url(./skillPage.scss);
+@import url(./mainPage.scss);
+
+@import url(./darkTheme.scss);
+@import url(./lightTheme.scss);
+@import url(./adaptation/adaptation.scss);

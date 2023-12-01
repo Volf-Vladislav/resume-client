@@ -1,0 +1,36 @@
+@media (max-width: 1919px){
+    .worksPage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1366px){
+    .worksPage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aboutPage {
+        display: flex;
+        flex-wrap: wrap;
+
+        .techInfo {
+            width: 260px;
+            height: 260px;
+        }
+    }
+
+    .skillPage {
+        .content p {
+            max-width: 960px;
+        }
+    }
+
+    .mainPage {
+        margin: 0px;
+        grid-template-columns: repeat(3, 240px);
+        .hrInfo {
+            width: 240px;
+            grid-column-end: 5;
+        }
+    }
+}

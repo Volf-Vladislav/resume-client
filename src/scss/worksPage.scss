@@ -1,0 +1,62 @@
+.worksPage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    strong {
+        color: var(--activeColor);
+    }
+
+    .title {
+        margin-bottom: 20px;
+
+        a {
+            color: var(--activeColor);
+            text-decoration: underline;
+        }
+
+        p {
+            color: var(--titleText);
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .element {        
+        .wrapp {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: calc(100% - 60px);
+
+            .description {
+                color: var(--defaultText);
+                font-size: 15px;
+                line-height: 1.1;
+                margin-bottom: 10px;
+            }
+
+            .images {
+                display: flex;
+                justify-content: space-around;
+
+                img {
+                    width: 30%;
+
+                    transition: 0.1s;
+                    cursor: pointer;
+                    border: 1px solid var(--borderSettings);
+
+                    &:hover,
+                    &:focus {
+                        transition: 0.1s;
+                        transform: scale(0.95);
+                        border: 1px solid var(--activeColor);
+                    }
+                }
+            }
+        }
+    }
+
+
+}

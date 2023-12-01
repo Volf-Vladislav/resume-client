@@ -1,0 +1,44 @@
+.skillPage {
+    max-width: 1026px;
+    .description {
+        width: 1000px;
+        margin-bottom: 40px;
+        .title {
+            p {
+                color: var(--titleText);
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+        }
+
+        .content {
+            p {
+                color: var(--defaultText);
+                line-height: 1.2;
+            }
+        }
+    }
+
+    .wrapp {
+        .title {
+            p {
+                color: var(--titleText);
+                margin-bottom: 10px;
+            }
+        }
+
+        .element {
+            display: flex;
+
+            p {
+                color: var(--activeColor);
+                margin-right: 10px;
+                margin-bottom: 30px;
+
+                border: 1px solid var(--activeColor);
+                border-radius: 8px;
+                padding: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.contacts {
+    display: flex;
+
+    .wrapp {
+        padding: 20px;
+        margin-right: 10px;
+        width: 360px;
+
+        .contactsType {
+            color: var(--titleText);
+            margin-bottom: 18px;
+        }
+
+        .element {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            margin-bottom: 7px;
+
+            .title {
+                margin-right: 20px;
+            }
+
+            .contact {
+                a {
+                    display: flex;
+                    width: 208px;
+                    margin-right: 20px;
+
+                    font-size: 16px;
+                    color: var(--activeColor);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+}
