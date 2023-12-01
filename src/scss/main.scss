@@ -44,22 +44,24 @@ body {
 }
 
 @import url(./reset.scss);
-@import url(./header.scss);
 @import url(./menu.scss);
 @import url(./chat.scss);
-@import url(./settings.scss);
-
-@import url(./card.scss);
-@import url(./backgroundStyler.scss);
-@import url(./rangeSlider.scss);
-@import url(./tooltip.scss);
 @import url(./imageSlider.scss);
+@import url(./settings.scss);
+@import url(./backgroundStyler.scss);
 
-@import url(./worksPage.scss);
-@import url(./aboutPage.scss);
-@import url(./contacts.scss);
-@import url(./skillPage.scss);
-@import url(./mainPage.scss);
+@import url(./templates/card.scss);
+@import url(./templates/rangeSlider.scss);
+@import url(./templates/tooltip.scss);
+@import url(./templates/header.scss);
+@import url(./templates/button.scss);
+@import url(./templates/switchButton.scss);
+
+@import url(./pages/aboutPage.scss);
+@import url(./pages/contactsPage.scss);
+@import url(./pages/mainPage.scss);
+@import url(./pages/skillPage.scss);
+@import url(./pages/worksPage.scss);
 
 @import url(./darkTheme.scss);
 @import url(./lightTheme.scss);
