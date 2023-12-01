@@ -8,7 +8,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 
 // change promise to async await
-// replace all any types
 // add test
 
 

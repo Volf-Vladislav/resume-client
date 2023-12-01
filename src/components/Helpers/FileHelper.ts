@@ -1,9 +1,12 @@
 import { setLocalStorageItem } from "../Hooks/setLocalStorageItem"
 
-export const saveImage = (e: any) => {
+export const saveImage = (e: React.ChangeEvent<HTMLInputElement>) => {
     try {
+        if (!e.target.files) return
+
         const file = e.target.files[0]
-        const file64 = getBase64(file) ?? file
+        const file64 = getBase64(file)
+        
         file64.then((base64: any) => {
             setLocalStorageItem('background', `${base64}`)
         })
@@ -12,15 +15,16 @@ export const saveImage = (e: any) => {
     }
 }
 
-export const getBase64 = (file: any) => {
+const getBase64 = async (file: File) => {
     try {
         return new Promise((resolve, reject) => {
             const reader = new FileReader()
             reader.onload = () => resolve(reader.result)
+            reader.onerror = error => reject(error)
             reader.readAsDataURL(file)
-            reader.onerror = (error) => reject(error)
         })
-    } catch (error) {
+    }
+    catch (error) {
         console.log(error)
     }
 

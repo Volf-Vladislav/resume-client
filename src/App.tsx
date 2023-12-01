@@ -28,7 +28,7 @@ const App = () => {
   const backGroundTransperent = useSelector((state: RootState) => state.UI.backGroundTransperent)
 
   const changeTheme = () => {
-    if (localStorage.getItem("theme") == null) setLocalStorageItem('theme', 'dark')
+    if (localStorage.getItem("theme") === null) setLocalStorageItem('theme', 'dark')
     else {
       const theme = localStorage.getItem("theme") || ' '
       document.body.id = theme.replaceAll('"', '')
@@ -37,9 +37,6 @@ const App = () => {
 
   useLocalStorageEffect(() => {
     ChangeSiteBackground(`${localStorage.getItem('background')}`)
-  }, [])
-
-  useLocalStorageEffect(() => {
     changeTheme()
   }, [])
 

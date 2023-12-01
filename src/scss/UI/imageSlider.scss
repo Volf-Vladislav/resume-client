@@ -78,7 +78,8 @@
                 &:hover,
                 &:focus {
                     --angle: 0deg;
-                    border-image: conic-gradient(from var(--angle), red, yellow, lime, aqua, blue, magenta, red) 1;
+                    border-image: conic-gradient(from var(--angle),  var(--activeColor), white, var(--activeColor)) 1;
+                
                     animation: 5s rotate linear infinite;
                 }
             }
