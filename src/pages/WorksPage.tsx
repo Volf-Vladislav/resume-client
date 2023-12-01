@@ -18,13 +18,13 @@ import brickside1 from '../media/portfolio/brickside/1.jpg'
 import brickide2 from '../media/portfolio/brickside/2.jpg'
 
 export default function WorksPage() {
-  const [currentSlides, setCurrentSlides] = useState([])
+  const [currentSlides, setCurrentSlides] = useState([''])
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const dispatch = useDispatch()
   const isSliderOpen = useSelector((state: RootState) => state.UI.isSliderOpen)
 
-  const openSlider = (slides: any, index: number) => {
+  const openSlider = (slides: string[], index: number) => {
     dispatch(flipState({ type: 'slider' }))
     setCurrentSlides(slides)
     setCurrentIndex(index)

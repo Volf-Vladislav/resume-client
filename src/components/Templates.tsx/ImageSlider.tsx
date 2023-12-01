@@ -1,9 +1,15 @@
+interface PropsTypes {
+    slides: string[],
+    initialIndex: number
+}
+
 import { useState } from 'react'
 
 import { useDispatch } from 'react-redux'
 import { flipState } from '../../states/UI/UISlice'
 
-export default function ImageSlider({ slides, initialIndex }: any) {
+export default function ImageSlider(props: PropsTypes) {
+    const { slides, initialIndex } = props
     const [currentIndex, setCurrentIndex] = useState(initialIndex)
 
     const dispatch = useDispatch()

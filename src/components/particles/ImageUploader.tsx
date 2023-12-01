@@ -3,12 +3,9 @@ import { saveImage } from '../Helpers/FileHelper'
 import Image from '../../svg/Image'
 
 const ImageUploader = () => {
-    const onDropHandler = (e: any) => {
+    const onDropHandler = (e: DragEvent ) => {
         e.preventDefault()
         e.stopPropagation()
-        let files = [...e.dataTransfer.files]
-        console.log(files[0])
-
     }
 
     return (
