@@ -2,9 +2,9 @@ import { useDispatch, useSelector } from 'react-redux'
 import { RootState } from '../states/store'
 import { flipState } from '../states/UI/UISlice'
 
-import SettingsElement from "./Templates.tsx/SettingsElement"
-import SwitchButton from "./Templates.tsx/SwitchButton"
-import Button from "./Templates.tsx/Button"
+import SettingsElement from "./templates.tsx/SettingsElement"
+import SwitchButton from "./templates.tsx/SwitchButton"
+import Button from "./templates.tsx/Button"
 import BackgroundStyler from './BackgroundStyler'
 
 export default function SettingsWidget() {

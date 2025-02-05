@@ -15,7 +15,7 @@ export default function ChatWidget() {
       <div className="statusBar">
         <div className="textBox">
           <p className="username">@valentineweb</p>
-          <p className="userStatus">last seen resently</p>
+          <p className="userStatus">WSS chat</p>
         </div>
 
         <div className="closeButton" onClick={changeChatVisibility}>

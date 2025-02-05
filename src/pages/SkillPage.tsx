@@ -1,14 +1,24 @@
 export default function SkillPage() {
   return (
-    <div className="skillPage" id="card"> 
+    <div className="skillPage" id="card">
       <div className="description">
         <div className="title">
-          <p>Текст о навыках</p>
+          <p>Навыки</p>
         </div>
 
         <div className="content">
-          <p>The recent surge in the price of Bitcoin, the world's largest cryptocurrency, has sparked renewed interest in the digital asset. As of August 2021, Bitcoin's value has exceeded $50,000, marking a new all-time high. This meteoric rise has been attributed to various factors, including increased institutional adoption, growing mainstream acceptance, and the ongoing COVID-19 pandemic's impact on traditional financial markets.</p>
-          <p>The recent surge in the price of Bitcoin, the world's largest cryptocurrency, has sparked renewed interest in the digital asset. As of August 2021, Bitcoin's value has exceeded $50,000, marking a new all-time high. This meteoric rise has been attributed to various factors, including increased institutional adoption, growing mainstream acceptance, and the ongoing COVID-19 pandemic's impact on traditional financial markets.</p>
+          <p>За время работы на фрилансе я
+
+            ~ Написал около 10 интернет-магазинов с использование MERN включая создание дизайна и деплой на хост
+
+            ~ Писал чаты на Node, websocket, применяя WebRTC
+
+            ~ Дорабатывал проекты на Node, React с внедрением систем монетизации, oauth, доработки бизнес-логики на redux
+
+            ~ использовал typescript, SCSS, SSR, react-native</p>
+
+            <br />
+          <p>Также во время работы изучал паттерны, ООП, Solid, принцип работы reconciliation React, babel, webpack, ES6, принцип работы eventloop и SSR</p>
         </div>
       </div>
 

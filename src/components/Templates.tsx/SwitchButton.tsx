@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { setLocalStorageItem } from '../Hooks/setLocalStorageItem'
+import { setLocalStorageItem } from '../hooks/setLocalStorageItem'
 
 const SwitchButton = () => {
     const getInitialState = () => {

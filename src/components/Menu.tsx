@@ -3,7 +3,7 @@ import { RootState } from '../states/store'
 
 import { flipState } from '../states/UI/UISlice'
 
-import MenuElement from './Templates.tsx/MenuElement'
+import MenuElement from './templates.tsx/MenuElement'
 
 import Contacts from '../svg/Contacts'
 import Info from '../svg/Info'

@@ -3,7 +3,7 @@ import { RootState } from '../states/store'
 import { flipState } from '../states/UI/UISlice'
 
 import SettingsWidget from './SettingsWidget'
-import Tooltip from './Templates.tsx/Tooltip'
+import Tooltip from './templates.tsx/Tooltip'
 
 import Settings from '../svg/Settings'
 import Github from '../svg/Github'

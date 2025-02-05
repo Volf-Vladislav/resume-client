@@ -2,7 +2,7 @@ import EmptyImage from '../../svg/EmptyImage'
 
 import cosmos from '../../media/cosmos.jpg'
 import mounth from '../../media/mounth.jpg'
-import { setLocalStorageItem } from '../Hooks/setLocalStorageItem'
+import { setLocalStorageItem } from '../hooks/setLocalStorageItem'
 
 
 const DefaultBackground = () => {

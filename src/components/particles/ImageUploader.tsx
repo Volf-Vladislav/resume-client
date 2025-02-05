@@ -1,4 +1,4 @@
-import { saveImage } from '../Helpers/FileHelper'
+import { saveImage } from '../helpers/FileHelper'
 
 import Image from '../../svg/Image'
 

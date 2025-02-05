@@ -18,8 +18,8 @@ export default function AboutPage() {
         </div>
 
         <div className="content">
-          <p>The recent surge in the price of Bitcoin, the world's largest cryptocurrency, has sparked renewed interest in the digital asset. As of August 2021, Bitcoin's value has exceeded $50,000, marking a new all-time high. This meteoric rise has been attributed to various factors, including increased institutional adoption, growing mainstream acceptance, and the ongoing COVID-19 pandemic's impact on traditional financial markets.</p>
-          <p>The recent surge in the price of Bitcoin, the world's largest cryptocurrency, has sparked renewed interest in the digital asset. As of August 2021, Bitcoin'</p>
+          <p>Верстка на flex + grid, препроцессор SCSS, тип клиет-серверное веб-приложение
+            Клиентская часть написана на React + typescript + Redux, сборщик Vite. Серверная часть - вебсокет сервер на Node.js + typescript + ws. Чат работает через telegram бота, который принимает сообщения с клиентской части и отправляет ответ по id пользователя который генерируется при первом запуске клиентской части. Все сохранения(тема, задний фон и тп) работают через кастомный хук и отправляются в localstorage</p>
         </div>
       </div>
 

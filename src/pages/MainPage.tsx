@@ -9,13 +9,15 @@ import ScssLogo from "../svg/ScssLogo"
 import Telegram from "../svg/Telegram"
 import TypescriptLogo from "../svg/TypescriptLogo"
 
+import avatar from '../media/me.jpg'
+
 const MainPage = () => {
   return (
     <div className="mainPage">
       <div className="selfInfo" id="card">
         <div className="avatar">
           <div className="image">
-            <img src="https://app-time.ru/uploads/games/cover/2023/08/01082023134608.jpg" alt="" />
+            <img src={avatar} alt="" />
           </div>
           <div className="contacts">
             <div className="element">
@@ -33,58 +35,65 @@ const MainPage = () => {
         <div className="info">
           <div className="name">Владислав Вольф</div>
           <div className="job">React Developer</div>
-          <div className="expereance">The recent surge in the price of Bitcoin, the world's largest cryptocurrency, has sparked renewed interest in the digital asset. As of August 2021, Bitcoin's value has Bitcoin's value has exceeded</div>
+          <div className="expereance">Oпыт работы 4 года на фрилансе. Предыдущий опыт: разрабатка Веб приложений с использованием Mongo, Express, React, Node.
+          </div>
           <div className="city">Россия, Москва</div>
         </div>
 
         <div className="description">
-          <p>The recent surge in the price of Bitcoin, the world's largest cryptocurrency, has sparked renewed interest in the digital asset. As of August 2021, Bitcoin's value has exceeded $50,000, marking a new all-time high. This meteoric rise has been attributed to various factors, including increased institutional adoption, growing mainstream acceptance, and the ongoing COVID-19 pandemic.</p>
+          <p>Привет! Меня зовут Владислав, и я являюсь фрилансером в области веб-разработки. В течение моей карьеры я получил ценный опыт коммуникации с заказчиками и наработал умение эффективно оценивать свои силы для достижения поставленных целей в строго оговоренный срок. Часто мне приходилось брать ответственность за весь цикл выполнения проекта - от идеи до реализации. Буду рад применить свой опыт и умения в новом проекте, и внести свою лепту в развитие вашей компании.</p>
         </div>
       </div>
 
       <div className="hrInfo" id="card">
-        <div className="title">
-          <p>Образование</p>
-        </div>
-        <div className="name">
-          <p>ITHUB College</p>
+
+        <div className="article">
+          <div className="title">
+            <p>Образование</p>
+          </div>
+          <div className="name">
+            <p>ITHUB College</p>
+          </div>
+
+          <div className="optional">
+            <p>Программист, среднее-специальное</p>
+          </div>
+          <div className="date">
+            <p>Москва, с 05.2019 по 05.2020</p>
+          </div>
         </div>
 
-        <div className="optional">
-          <p>Программист, среднее-специальное</p>
-        </div>
-        <div className="date">
-          <p>Москва, с 05.2019 по 05.2020</p>
-        </div>
-        <div className="name">
-          <p>Колледж связи 54</p>
-        </div>
-
-        <div className="optional">
-          <p>Программист, среднее-специальное</p>
-        </div>
-        <div className="date">
-          <p>Москва, с 05.2020 по 05.2021</p>
+        <div className="article">
+          <div className="name">
+            <p>Колледж связи 54</p>
+          </div>
+          <div className="optional">
+            <p>Программист, среднее-специальное</p>
+          </div>
+          <div className="date">
+            <p>Москва, с 05.2020 по 05.2021</p>
+          </div>
         </div>
 
-        <div className="title">
-          <p>Военный билет</p>
-        </div>
-        <div className="name">
-          <p>Лаборант, категория Б</p>
-        </div>
-        <div className="optional">
-          <p>04.07.2022 - 04.07.2023</p>
+        <div className="article">
+          <div className="name">
+            <p>Frontend-разработчик</p>
+          </div>
+          <div className="optional">
+            <p>Лайка Софт, Москва (lk-soft.ru)</p>
+          </div>
+          <div className="date">
+            <p>Март 2024 — Сентябрь 2024 (7 месяцев)</p>
+          </div>
         </div>
       </div>
-
 
       <div className="skillInfo" id="card">
         <div className="skillLogo">
           <ReactLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в разработке веб-приложений 1 год</p>
+          <p>Опыт в разработке веб-приложений 4 года</p>
         </div>
       </div>
 
@@ -93,7 +102,7 @@ const MainPage = () => {
           <NodeLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт создания собственных REST API 8 месяцев</p>
+          <p>Опыт создания собственных REST API 3 года</p>
         </div>
       </div>
 
@@ -102,7 +111,7 @@ const MainPage = () => {
           <TypescriptLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в использовании typescript 4 месяца</p>
+          <p>Опыт в использовании typescript 1 год</p>
         </div>
       </div>
 
@@ -111,7 +120,7 @@ const MainPage = () => {
           <ReduxLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в использовании Redux для создании бизнес-логики 6 месяцев</p>
+          <p>Опыт в использовании Redux для создании бизнес-логики 4 года</p>
         </div>
       </div>
 
@@ -120,7 +129,7 @@ const MainPage = () => {
           <ScssLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в использовании препроцессоров 7 месяцев</p>
+          <p>Опыт в использовании препроцессоров 2 года</p>
         </div>
       </div>
 
@@ -129,7 +138,7 @@ const MainPage = () => {
           <Github width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт работы с git 2 года</p>
+          <p>Опыт работы с git 4 года</p>
         </div>
       </div>
 
@@ -138,7 +147,7 @@ const MainPage = () => {
           <ES6Logo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Использование ES6 на протяжении 1 года</p>
+          <p>Использование ES6 на протяжении 4 лет</p>
         </div>
       </div>
 
@@ -147,7 +156,7 @@ const MainPage = () => {
           <NextjsLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в оптимизации SEO через SSR 5 месяцев</p>
+          <p>Опыт в оптимизации SEO через SSR 8 месяцев</p>
         </div>
       </div>
 

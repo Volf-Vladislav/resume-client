@@ -15,11 +15,11 @@ import SelfPage from './pages/SelfPage'
 import AboutPage from './pages/AboutPage'
 
 import SiteRoutes from './pages/SiteRoutes'
-import useLocalStorageEffect from './components/Hooks/useLocalStorageEffect'
+import useLocalStorageEffect from './components/hooks/useLocalStorageEffect'
 
-import { ChangeSiteBackground } from './components/Helpers/changeSiteBackground'
-import { setLocalStorageItem } from './components/Hooks/setLocalStorageItem'
-import { isFirstVisit } from './components/Helpers/isFirstVisit'
+import { ChangeSiteBackground } from './components/helpers/changeSiteBackground'
+import { setLocalStorageItem } from './components/hooks/setLocalStorageItem'
+import { isFirstVisit } from './components/helpers/isFirstVisit'
 
 import './scss/main.scss'
 
