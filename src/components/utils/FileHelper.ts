@@ -1,4 +1,4 @@
-import { setLocalStorageItem } from "../hooks/setLocalStorageItem"
+import { setLocalStorageItem } from "../custom-hooks/setLocalStorageItem"
 
 export const saveImage = (e: React.ChangeEvent<HTMLInputElement>) => {
     try {
