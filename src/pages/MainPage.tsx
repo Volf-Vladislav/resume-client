@@ -1,15 +1,15 @@
-import ES6Logo from "../svg/ES6Logo"
-import Github from "../svg/Github"
-import NextjsLogo from "../svg/NextjsLogo"
-import NodeLogo from "../svg/NodeLogo"
-import Phone from "../svg/Phone"
-import ReactLogo from "../svg/ReactLogo"
-import ReduxLogo from "../svg/ReduxLogo"
-import ScssLogo from "../svg/ScssLogo"
-import Telegram from "../svg/Telegram"
-import TypescriptLogo from "../svg/TypescriptLogo"
+import ES6Logo from "../shared/svg/ES6Logo"
+import Github from "../shared/svg/Github"
+import NextjsLogo from "../shared/svg/NextjsLogo"
+import NodeLogo from "../shared/svg/NodeLogo"
+import Phone from "../shared/svg/Phone"
+import ReactLogo from "../shared/svg/ReactLogo"
+import ReduxLogo from "../shared/svg/ReduxLogo"
+import ScssLogo from "../shared/svg/ScssLogo"
+import Telegram from "../shared/svg/Telegram"
+import TypescriptLogo from "../shared/svg/TypescriptLogo"
 
-import avatar from '../media/me.jpg'
+import avatar from '../images/me.jpg'
 
 const MainPage = () => {
   return (

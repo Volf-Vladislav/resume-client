@@ -2,14 +2,10 @@ import React from 'react'
 
 import { BrowserRouter } from 'react-router-dom'
 import { Provider } from 'react-redux'
-import { store } from './states/store.ts'
+import { store } from './app/redux/store.ts'
 
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-
-// change promise to async await
-// add test
-
+import App from './app/App.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

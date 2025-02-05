@@ -1,7 +1,7 @@
 import React from "react"
 
-import Telegram from "../svg/Telegram"
-import CloseIcon from "../svg/CloseIcon"
+import Telegram from "../shared/svg/Telegram"
+import CloseIcon from "../shared/svg/CloseIcon"
 
 export default function ChatWidget() {
 

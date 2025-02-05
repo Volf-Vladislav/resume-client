@@ -7,7 +7,7 @@ interface PropsTypes {
 import { useState } from 'react'
 
 import { useDispatch } from 'react-redux'
-import { flipState } from '../../states/UI/UISlice'
+import { flipState } from '../../app/redux/UI/UISlice'
 
 export default function ImageSlider(props: PropsTypes) {
     const { slides, initialIndex } = props

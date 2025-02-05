@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-import Button from "../components/templates/Button"
-import DiscordLogo from "../svg/DiscordLogo"
+import Button from "../shared/components/Button"
+import DiscordLogo from "../shared/svg/DiscordLogo"
 
-import Email from "../svg/Email"
-import Github from "../svg/Github"
-import Phone from "../svg/Phone"
-import Telegram from "../svg/Telegram"
-import VkLogo from "../svg/VkLogo"
+import Email from "../shared/svg/Email"
+import Github from "../shared/svg/Github"
+import Phone from "../shared/svg/Phone"
+import Telegram from "../shared/svg/Telegram"
+import VkLogo from "../shared/svg/VkLogo"
 
 
 export default function ContactsPage() {

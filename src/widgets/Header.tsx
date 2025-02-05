@@ -1,13 +1,13 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { RootState } from '../states/store'
-import { flipState } from '../states/UI/UISlice'
+import { RootState } from '../app/redux/store'
+import { flipState } from '../app/redux/UI/UISlice'
 
 import SettingsWidget from './SettingsWidget'
-import Tooltip from './templates/Tooltip'
+import Tooltip from '../shared/components/Tooltip'
 
-import Settings from '../svg/Settings'
-import Github from '../svg/Github'
-import Telegram from '../svg/Telegram'
+import Settings from '../shared/svg/Settings'
+import Github from '../shared/svg/Github'
+import Telegram from '../shared/svg/Telegram'
 
 export default function Header() {
     const isSettingsOpen = useSelector((state: RootState) => state.UI.isSettingsOpened)

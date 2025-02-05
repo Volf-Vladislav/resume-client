@@ -1,11 +1,11 @@
-import ReactLogo from "../svg/ReactLogo"
-import ReduxLogo from "../svg/ReduxLogo"
-import ViteLogo from "../svg/ViteLogo"
-import TypescriptLogo from "../svg/TypescriptLogo"
+import ReactLogo from "../shared/svg/ReactLogo"
+import ReduxLogo from "../shared/svg/ReduxLogo"
+import ViteLogo from "../shared/svg/ViteLogo"
+import TypescriptLogo from "../shared/svg/TypescriptLogo"
 
-import ScssLogo from "../svg/ScssLogo"
-import NodeLogo from "../svg/NodeLogo"
-import WebSoketLogo from "../svg/WebSoketLogo"
+import ScssLogo from "../shared/svg/ScssLogo"
+import NodeLogo from "../shared/svg/NodeLogo"
+import WebSoketLogo from "../shared/svg/WebSoketLogo"
 
 
 

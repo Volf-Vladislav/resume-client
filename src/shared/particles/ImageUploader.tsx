@@ -1,6 +1,6 @@
 import { saveImage } from '../utils/FileHelper'
 
-import Image from '../../svg/Image'
+import Image from '../svg/Image'
 
 const ImageUploader = () => {
     const onDropHandler = (e: React.DragEvent<HTMLDivElement> ) => {

@@ -1,20 +1,20 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { RootState } from '../states/store'
+import { RootState } from '../app/redux/store'
 
-import { flipState } from '../states/UI/UISlice'
+import { flipState } from '../app/redux/UI/UISlice'
 
-import MenuElement from './templates/MenuElement'
+import MenuElement from '../shared/components/MenuElement'
 
-import Contacts from '../svg/Contacts'
-import Info from '../svg/Info'
-import MenuIcon from '../svg/Menu'
-import Person from '../svg/Person'
+import Contacts from '../shared/svg/Contacts'
+import Info from '../shared/svg/Info'
+import MenuIcon from '../shared/svg/Menu'
+import Person from '../shared/svg/Person'
 
-import Skill from '../svg/Skill'
-import Works from '../svg/Works'
-import Exit from '../svg/Exit'
+import Skill from '../shared/svg/Skill'
+import Works from '../shared/svg/Works'
+import Exit from '../shared/svg/Exit'
 
-import SiteRoutes from '../pages/SiteRoutes'
+import SiteRoutes from '../app/routing/SiteRoutes'
 
 const Menu = () => {
     const isOpen = useSelector((state: RootState) => state.UI.isMenuOpened)

@@ -62,7 +62,7 @@ body {
 @import url(./pages/skillPage.scss);
 @import url(./pages/worksPage.scss);
 
-@import url(./reset.scss);
-@import url(./darkTheme.scss);
-@import url(./lightTheme.scss);
+@import url(./adaptation/normalize.scss);
+@import url(./themes/darkTheme.scss);
+@import url(./themes/lightTheme.scss);
 @import url(./adaptation/adaptation.scss);

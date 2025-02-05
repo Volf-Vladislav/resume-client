@@ -1,9 +1,9 @@
 import { useDispatch } from 'react-redux'
-import { flipState } from '../states/UI/UISlice'
+import { flipState } from '../app/redux/UI/UISlice'
 
-import OpacitySlide from './particles/OpacitySlide'
-import DefaultBackground from './particles/DefaultBackground'
-import ImageUploader from './particles/ImageUploader'
+import OpacitySlide from '../shared/particles/OpacitySlide'
+import DefaultBackground from '../shared/particles/DefaultBackground'
+import ImageUploader from '../shared/particles/ImageUploader'
 
 
 const BackgroundStyler = () => {

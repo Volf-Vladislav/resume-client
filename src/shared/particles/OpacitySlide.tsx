@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux'
-import { RootState } from '../../states/store'
-import { changeValue } from '../../states/UI/UISlice'
+import { RootState } from '../../app/redux/store'
+import { changeValue } from '../../app/redux/UI/UISlice'
 
 const OpacitySlide = () => {
     const backGroundTransperent = useSelector((state: RootState) => state.UI.backGroundTransperent)

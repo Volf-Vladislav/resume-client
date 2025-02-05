@@ -1,21 +1,21 @@
 import { useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { RootState } from '../states/store'
-import { flipState } from '../states/UI/UISlice'
+import { RootState } from '../app/redux/store'
+import { flipState } from '../app/redux/UI/UISlice'
 
-import ImageSlider from '../components/templates/ImageSlider'
+import ImageSlider from '../shared/components/ImageSlider'
 
-import chatShort from '../media/portfolio/anonimChat/short.jpg'
-import chat1 from '../media/portfolio/anonimChat/1.jpg'
-import chat2 from '../media/portfolio/anonimChat/2.jpg'
-import chat3 from '../media/portfolio/anonimChat/3.jpg'
+import chatShort from '../images/portfolio/anonimChat/short.jpg'
+import chat1 from '../images/portfolio/anonimChat/1.jpg'
+import chat2 from '../images/portfolio/anonimChat/2.jpg'
+import chat3 from '../images/portfolio/anonimChat/3.jpg'
 
-import motoring1 from '../media/portfolio/motoring/1.jpg'
-import motoring2 from '../media/portfolio/motoring/2.jpg'
-import motoring3 from '../media/portfolio/motoring/3.jpg'
+import motoring1 from '../images/portfolio/motoring/1.jpg'
+import motoring2 from '../images/portfolio/motoring/2.jpg'
+import motoring3 from '../images/portfolio/motoring/3.jpg'
 
-import brickside1 from '../media/portfolio/brickside/1.jpg'
-import brickide2 from '../media/portfolio/brickside/2.jpg'
+import brickside1 from '../images/portfolio/brickside/1.jpg'
+import brickide2 from '../images/portfolio/brickside/2.jpg'
 
 export default function WorksPage() {
   const [currentSlides, setCurrentSlides] = useState([''])

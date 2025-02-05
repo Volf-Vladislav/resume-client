@@ -1,7 +1,7 @@
-import EmptyImage from '../../svg/EmptyImage'
+import EmptyImage from '../svg/EmptyImage'
 
-import cosmos from '../../media/cosmos.jpg'
-import mounth from '../../media/mounth.jpg'
+import cosmos from '../../images/cosmos.jpg'
+import mounth from '../../images/mounth.jpg'
 import { setLocalStorageItem } from '../custom-hooks/setLocalStorageItem'
 
 
