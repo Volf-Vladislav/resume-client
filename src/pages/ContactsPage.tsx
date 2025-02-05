@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import Button from "../components/templates.tsx/Button"
+import Button from "../components/templates/Button"
 import DiscordLogo from "../svg/DiscordLogo"
 
 import Email from "../svg/Email"

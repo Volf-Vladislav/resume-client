@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { RootState } from '../states/store'
 import { flipState } from '../states/UI/UISlice'
 
-import ImageSlider from '../components/templates.tsx/ImageSlider'
+import ImageSlider from '../components/templates/ImageSlider'
 
 import chatShort from '../media/portfolio/anonimChat/short.jpg'
 import chat1 from '../media/portfolio/anonimChat/1.jpg'
