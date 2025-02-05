@@ -38,7 +38,7 @@ const App = () => {
   useLocalStorageEffect(() => {
     ChangeSiteBackground(`${localStorage.getItem('background')}`)
     changeTheme()
-  }, [])
+  })
 
   React.useEffect(() => {
     ChangeSiteBackground(`${localStorage.getItem('background')}`)

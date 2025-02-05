@@ -1,6 +1,7 @@
 interface PropsTypes {
     slides: string[],
     initialIndex: number
+    array?: string[]
 }
 
 import { useState } from 'react'
@@ -43,7 +44,7 @@ export default function ImageSlider(props: PropsTypes) {
                 </div>
 
                 <div className="dots">
-                    {slides.map((slide: number, slideIndex: number) => (
+                    {slides.map((slide, slideIndex) => (
                         <div
                             key={slide}
                             onClick={() => goToSlide(slideIndex)}

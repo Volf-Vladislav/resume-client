@@ -1,7 +1,7 @@
 import _ from 'lodash'
 import { useEffect } from 'react'
 
-const useLocalStorageEffect = (callback:(a: string, b: Event, c: Event,) => void, deps: Event) => {
+const useLocalStorageEffect = (callback:(a: string, b: Event, c: Event,) => void, deps?: Event) => {
 	if (!_.isFunction(callback)) {
 		throw new Error('Callback in useLocalStorageEffect is not a function')
 	}

@@ -3,7 +3,7 @@ import { saveImage } from '../helpers/FileHelper'
 import Image from '../../svg/Image'
 
 const ImageUploader = () => {
-    const onDropHandler = (e: DragEvent ) => {
+    const onDropHandler = (e: React.DragEvent<HTMLDivElement> ) => {
         e.preventDefault()
         e.stopPropagation()
     }
