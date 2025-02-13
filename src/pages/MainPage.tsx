@@ -35,13 +35,13 @@ const MainPage = () => {
         <div className="info">
           <div className="name">Владислав Вольф</div>
           <div className="job">React Developer</div>
-          <div className="expereance">Oпыт работы 4 года на фрилансе. Предыдущий опыт: разрабатка Веб приложений с использованием Mongo, Express, React, Node.
+          <div className="expereance">Oпыт работы 3 года на фрилансе. Предыдущий опыт: разрабатка Веб приложений с использованием Mongo, Express, React, Node.
           </div>
           <div className="city">Россия, Москва</div>
         </div>
 
         <div className="description">
-          <p>Привет! Меня зовут Владислав, и я являюсь фрилансером в области веб-разработки. В течение моей карьеры я получил ценный опыт коммуникации с заказчиками и наработал умение эффективно оценивать свои силы для достижения поставленных целей в строго оговоренный срок. Часто мне приходилось брать ответственность за весь цикл выполнения проекта - от идеи до реализации. Буду рад применить свой опыт и умения в новом проекте, и внести свою лепту в развитие вашей компании.</p>
+          <p>Привет! Меня зовут Владислав, и я веб-разработчик. В течение моей карьеры я получил ценный опыт коммуникации с заказчиками и наработал умение эффективно оценивать свои силы для достижения поставленных целей в строго оговоренный срок. Часто мне приходилось брать ответственность за весь цикл выполнения проекта - от идеи до реализации. Буду рад применить свой опыт и умения в новом проекте, и внести свою лепту в развитие вашей компании.</p>
         </div>
       </div>
 
@@ -80,10 +80,22 @@ const MainPage = () => {
             <p>Frontend-разработчик</p>
           </div>
           <div className="optional">
+            <p>Цифровые технологии и платформы</p>
+          </div>
+          <div className="date">
+            <p>Октябрь 2022 — Декабрь 2023 (1 год 3 месяца)</p>
+          </div>
+        </div>
+
+        <div className="article">
+          <div className="name">
+            <p>Frontend-разработчик</p>
+          </div>
+          <div className="optional">
             <p>Лайка Софт, Москва (lk-soft.ru)</p>
           </div>
           <div className="date">
-            <p>Март 2024 — Сентябрь 2024 (7 месяцев)</p>
+            <p>Март 2024 — ноябрь 2024 (9 месяцев)</p>
           </div>
         </div>
       </div>
@@ -93,7 +105,7 @@ const MainPage = () => {
           <ReactLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в разработке веб-приложений 4 года</p>
+          <p>Опыт в разработке веб-приложений 5 лет</p>
         </div>
       </div>
 
@@ -102,7 +114,7 @@ const MainPage = () => {
           <NodeLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт создания собственных REST API 3 года</p>
+          <p>Опыт создания собственных REST API 5 лет</p>
         </div>
       </div>
 
@@ -111,7 +123,7 @@ const MainPage = () => {
           <TypescriptLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в использовании typescript 1 год</p>
+          <p>Опыт в использовании typescript 4 годa</p>
         </div>
       </div>
 
@@ -129,7 +141,7 @@ const MainPage = () => {
           <ScssLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в использовании препроцессоров 2 года</p>
+          <p>Опыт в использовании препроцессоров 4 года</p>
         </div>
       </div>
 
@@ -138,7 +150,7 @@ const MainPage = () => {
           <Github width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт работы с git 4 года</p>
+          <p>Опыт работы с git 5 лет</p>
         </div>
       </div>
 
@@ -147,7 +159,7 @@ const MainPage = () => {
           <ES6Logo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Использование ES6 на протяжении 4 лет</p>
+          <p>Использование ES6 на протяжении 5 лет</p>
         </div>
       </div>
 
@@ -156,7 +168,7 @@ const MainPage = () => {
           <NextjsLogo width='60px' color="var(--defaultText)" />
         </div>
         <div className="title">
-          <p>Опыт в оптимизации SEO через SSR 8 месяцев</p>
+          <p>Опыт в оптимизации SEO через SSR 2 года</p>
         </div>
       </div>
 

@@ -18,6 +18,9 @@ export default function SkillPage() {
             ~ использовал typescript, SCSS, SSR, react-native</p>
 
             <br />
+
+            <p>За время работы в компаниях я создал с нуля 4 проекта, которые используются в московском метро и РЖД
+            </p>
           <p>Также во время работы изучал паттерны, ООП, Solid, принцип работы reconciliation React, babel, webpack, ES6, принцип работы eventloop и SSR</p>
         </div>
       </div>
@@ -29,7 +32,9 @@ export default function SkillPage() {
         <div className="element">
           <p>typescript/javascript</p>
           <p>React/redux</p>
+          <p>vite/webpack</p>
           <p>Node.js</p>
+          <p>FSD</p>
           <p>SASS/SCSS</p>
           <p>ООП/Паттерны</p>
           <p>Docker</p>
